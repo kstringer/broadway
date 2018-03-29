@@ -28,8 +28,7 @@ p {
   font-size: 18px;
   color: white;
 }
-/*visited link stays white.*/
-a:visited {
+a {
   color: white;
 }
 #location {
