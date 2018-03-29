@@ -23,18 +23,27 @@ p {
   background-size: cover;
 }
 #nav {
-  text-decoration: none;
+  padding: 0;/*remove list indent*/
+  list-style-type: none;
   font-size: 18px;
+  color: white;
+}
+/*visited link stays white.*/
+a:visited {
   color: white;
 }
 #location {
   font-size: 23px;
-  font-weight: bold;
   color: white;
+  background-image: url("../images/the-flatiron-building.png");
+  background-size: cover;
 }
 #footer {
   text-align: left;
-  font-size: 11px;
+  font-size: 18px;
   color: white;
   background-color: dimgray;
+}
+.copyright {
+  font-size: 11px;
 }
